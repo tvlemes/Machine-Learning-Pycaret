@@ -1,0 +1,15 @@
+1 - Primeiro devemos criar a imagem do docker do Flask:
+# docker build -t lemesvilarinho/flask:1.0 .
+
+2 - Em seguida criar o docker-compose.yml, em anexo na pasta.
+
+3 - Para rodar o docker-compose:
+# docker-compose -f docker-compose.yml up -d
+
+4 - Subindo o servidor Flask, caso necessário:
+# flask --app hello run
+
+Links:
+https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask-pt
+https://pt.stackoverflow.com/questions/548773/como-passar-vari%C3%A1vel-do-post-para-o-get-methods-no-flask-python-3
+https://www.treinaweb.com.br/blog/como-enviar-e-exibir-dados-em-templates-com-jinja2

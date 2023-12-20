@@ -1,0 +1,25 @@
+# Projeto desenvolvido para pratica da biblioteca
+# Pycaret, onde é utilizado algoritmo de Machine Learning
+# para prever o preço do diamante.
+# Autor: Thiago Vilarinho Lemes - Engenheiro de Dados
+# Data: 20/12/2023
+# Para mais informações sobre a biblioteca acesse: https://pycaret.org/
+
+version: '3'
+
+# networks:
+#   net:
+#     driver: bridge
+
+services:
+
+  flask:
+    image: lemesvilarinho/flask:1.0
+    hostname: flask
+    container_name: flask
+    ports:
+      - '8000:8000'
+    # networks:
+    #   - net
+    volumes:
+      - ./app:/app
