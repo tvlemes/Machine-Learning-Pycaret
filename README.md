@@ -2,9 +2,6 @@
 
 <hr>
 
-[![NPM](https://img.shields.io/github/license/tvlemes/machine-learning-pycaret)](https://github.com/tvlemes/machine-learning-pycaret/blob/main/LICENSE)
-
-
 
 Este projeto tem como objetivo principal a exploração da biblioteca <i>Pycaret</i> e suas funcionalidades, assim como, criar um <i>APP</i> via <i>Web</i>
 para interagir com o algoritmo de <i>Machine Learning</i>.
