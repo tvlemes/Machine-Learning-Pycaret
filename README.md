@@ -1,7 +1,5 @@
 #  Machine Learning - Pycaret
 
-[![NPM](https://img.shields.io/github/license/tvlemes/machine-learning-pycaret)](https://github.com/tvlemes/machine-learning-pycaret//blob/main/LICENSE)
-
 <hr>
 
 
